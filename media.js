@@ -8,10 +8,12 @@ let nota1 = 8.5;
 let nota2 = 7.5;
 let nota3 = 9 ;
 
-
+// função principal 
 function media () {
-    let mediaAluno = (nota1 + nota2 + nota3)/3;
 
+    //Calculo da média
+    let mediaAluno = (nota1 + nota2 + nota3)/3;
+    //resultado da média com 2 casas decimais
     let alunoMedia = mediaAluno.toFixed(2);
 
     if (mediaAluno >= 7){
