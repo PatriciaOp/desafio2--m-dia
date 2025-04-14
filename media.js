@@ -16,6 +16,7 @@ const nota2 = readlineSync.questionFloat('Digite a segunda nota: ');
 
 const nota3 = readlineSync.questionFloat('Digite a terceira nota: ');
 
+//declara as variaveis 
 let mediaAluno;
 let mediaFormatada;
 
