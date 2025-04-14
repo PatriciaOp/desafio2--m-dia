@@ -4,13 +4,13 @@
 
 ## ✨ Funcionalidades 
 
--Entrada de dados via terminal com a biblioteca readline-sync.
+- Entrada de dados via terminal com a biblioteca readline-sync.
 
--Cálculo da média de três notas.
+- Cálculo da média de três notas.
 
--Exibição do status do aluno: Aprovado (média ≥ 7) ou Reprovado (média < 7).
+- Exibição do status do aluno: Aprovado (média ≥ 7) ou Reprovado (média < 7).
 
--Exibição formatada da média com duas casas decimais.<p>
+- Exibição formatada da média com duas casas decimais.<p>
 
 ## 💻 Tecnologias utilizadas
 
@@ -21,16 +21,18 @@
 1. Certifique-se de que o [Node.js](https://nodejs.org/) está instalado.
 2. Clone este repositório ou crie um arquivo chamado `media.js` e cole o código-fonte nele.
 3. No terminal, navegue até a pasta do projeto e instale a biblioteca `readline-sync`:
-
+ 
    ```bash
    npm install readline-sync
+
+4. Execute o programa com o comando:
+
+   ```bash
+   node nome-do-arquivo.js
    
- 4.Execute o programa com o comando:
-    ```bash
-    node nome-do-arquivo.js
 
 ## 🚀 Autor
-Desenvolvido com 💻 por Patricia Pelizon
+Desenvolvido por Patricia Pelizon
  
    
 
