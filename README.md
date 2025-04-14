@@ -14,9 +14,8 @@ Exibição formatada da média com duas casas decimais.<p>
 
 <h2>💻 Tecnologias utilizadas</h2>
 
-<p>Node.js
-
-readline-sync<p>
+- [Node.js](https://nodejs.org/)
+- [readline-sync](https://www.npmjs.com/package/readline-sync)
 
  <h2> 📥 Instalação e uso</h2>
 <p>Certifique-se de que o Node.js está instalado.
