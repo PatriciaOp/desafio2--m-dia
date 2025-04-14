@@ -17,26 +17,21 @@ Exibição formatada da média com duas casas decimais.<p>
 - [Node.js](https://nodejs.org/)
 - [readline-sync](https://www.npmjs.com/package/readline-sync)
 
- <h2> 📥 Instalação e uso</h2>
-<p>Certifique-se de que o Node.js está instalado.
+📥 Instalação e uso
+1. Certifique-se de que o [Node.js](https://nodejs.org/) está instalado.
+2. Clone este repositório ou crie um arquivo chamado `mediaAluno.js` e cole o código-fonte nele.
+3. No terminal, navegue até a pasta do projeto e instale a biblioteca `readline-sync`:
 
-Crie um diretório e salve o código em um arquivo, por exemplo: mediaAluno.js.
+   ```bash
+   npm install readline-sync
+ 4.Execute o programa com o comando:
+    node nome-do-arquivo.js
 
-No terminal, navegue até a pasta do projeto e instale a biblioteca readline-sync:
 
-bash
-Copiar
-Editar
-npm install readline-sync
-Execute o programa:
+🚀 Autor
+Desenvolvido com 💻 por Patricia Pelizon
+ 
+   
 
-bash
-Copiar
-Editar
-node mediaAluno.js<p>
 
-<p>1. Instale o Node.js<p>
-<br/>
- 2. Clone o repositório
- <br/>
- 3. Rode o comando: `node nome-do-arquivo.js`</p>
+
