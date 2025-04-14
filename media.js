@@ -2,28 +2,43 @@
 
 
  
-let nome = "Maria";
-let idade = 15;
-let nota1 = 8.5;
-let nota2 = 7.5;
-let nota3 = 9 ;
+// Importa a biblioteca 
+const readlineSync = require('readline-sync');
 
-// função principal 
-function media () {
+//Recebe os dados do usuario via etrminal 
+const nome = readlineSync.question('Digite o nome do aluno: ');
 
-    //Calculo da média
-    let mediaAluno = (nota1 + nota2 + nota3)/3;
+const idade = readlineSync.questionInt('Digite a idade do aluno: ');
+
+const nota1 = readlineSync.questionFloat('Digite a primeira nota: ');
+
+const nota2 = readlineSync.questionFloat('Digite a segunda nota: ');
+
+const nota3 = readlineSync.questionFloat('Digite a terceira nota: ');
+
+let mediaAluno;
+let mediaFormatada;
+
+ //Calculo da média
+function media(nota1,nota2,nota3){
+
+    mediaAluno = (nota1 + nota2 + nota3)/3;
+
     //resultado da média com 2 casas decimais
-    let alunoMedia = mediaAluno.toFixed(2);
+    mediaFormatada = mediaAluno.toFixed(2);
+
+}
+// Mostra o resultado aprovado caso a nota seja igual ou maior que 7 e reporvado caso seja menor que 7
+function resultado() {   
 
     if (mediaAluno >= 7){
         console.log(` 
             Nome: ${nome} 
             Idade: ${idade} 
             Notas: ${nota1}, ${nota2}, ${nota3}
-            Média: ${alunoMedia} 
-            Situação: Parabéns, você foi aprovado!
-            `)
+            Média: ${mediaFormatada} 
+            Situação: Parabéns,você foi aprovado!
+            `);
         
     } 
     else  {       
@@ -31,13 +46,15 @@ function media () {
         Nome: ${nome} 
         Idade: ${idade} 
         Notas: ${nota1}, ${nota2}, ${nota3}
-        Média: ${alunoMedia} 
+        Média: ${mediaFormatada} 
         Situação: Infelizmente você foi reprovado.
-        `)
+        `);
     }
         
 }
-media();
+//Chama as funções
+media(nota1,nota2,nota3);
+resultado();
 
 
 
