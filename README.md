@@ -32,7 +32,7 @@
    
 
 ## 🚀 Autor
-Desenvolvido por Patricia Pelizon
+Desenvolvido por **Patricia Pelizon**
  
    
 
